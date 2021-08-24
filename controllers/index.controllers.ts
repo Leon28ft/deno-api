@@ -1,4 +1,4 @@
-import { Request, Response } from "https://deno.land/x/oak/mod.ts";
+import { Request, Response } from "https://deno.land/x/oak@v8.0.0/mod.ts";
 
 interface User {
   id: string;
