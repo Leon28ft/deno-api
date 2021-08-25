@@ -27,7 +27,7 @@ FROM denoland/deno:1.10.3
 # The port that your application listens to.
 EXPOSE 1993
 
-WORKDIR /app
+WORKDIR /root/www/deno-api
 
 # Prefer not to run as root.
 USER deno
