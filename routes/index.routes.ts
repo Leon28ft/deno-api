@@ -1,4 +1,4 @@
-import { Router } from "https://deno.land/x/oak@v7.7.0/mod.ts";
+import { Router } from "../deps.ts";
 
 import * as indexCtrl from '../controllers/index.controllers.ts';
 
