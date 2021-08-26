@@ -11,6 +11,6 @@ const app = new Application();
 app.use(router.routes());
 app.use(router.allowedMethods());
 
-/* console.log('Server running on port', 1993); */
+/* console.log('Server running on port', 1993);
 
-await app.listen({ port: 1993 });
+await app.listen({ port: 1993 }); */
