@@ -25,7 +25,7 @@
 FROM denoland/deno
 
 # The port that your application listens to.
-# EXPOSE 1993
+EXPOSE 1993
 
 WORKDIR /root/www/deno-api
 
